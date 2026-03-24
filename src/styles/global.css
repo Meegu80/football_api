@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.table-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #ebebeb;
+    overflow-x: auto;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+th {
+    background: #fafafa;
+    padding: 14px;
+    font-size: 11px;
+    color: #6b7280;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ebebeb;
+    letter-spacing: 0.05em;
+}
+
+td {
+    padding: 16px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 14px;
+    vertical-align: middle;
+}
